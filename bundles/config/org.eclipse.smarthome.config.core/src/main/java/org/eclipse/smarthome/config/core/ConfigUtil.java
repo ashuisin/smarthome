@@ -32,6 +32,7 @@ public class ConfigUtil {
      * @param configuration
      * @return normalized configuration
      */
+    HashMap<String, String> hMap;
     public static Map<String, Object> normalizeTypes(Map<String, Object> configuration) {
         Map<String, Object> convertedConfiguration = new HashMap<String, Object>(configuration.size());
         for (Entry<String, Object> parameter : configuration.entrySet()) {
