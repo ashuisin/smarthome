@@ -45,7 +45,7 @@ public enum ApartmentSceneEnum implements Scene {
 
     private final short sceneNumber;
     static final HashMap<Short, ApartmentSceneEnum> apartmentScenes = new HashMap<Short, ApartmentSceneEnum>();
-
+    
     static {
         for (ApartmentSceneEnum as : ApartmentSceneEnum.values()) {
             apartmentScenes.put(as.getSceneNumber(), as);
